@@ -17,7 +17,7 @@ const HomeBanner = () => {
             
             <div className="  bg-gradient-to-r from-black p-3">
 
-              <div className=" flex justify-center bg-green-400 p-1 rounded-full w-[150px] h-[150px] ">
+              <div className=" transition duration-300 ease-in-out hover:scale-110 flex justify-center bg-green-400 p-1 rounded-full w-[150px] h-[150px] ">
               <div className=" mt-5">
                 <p className=" text-center font-mono text-2xl font-semibold">40%<br></br>
                </p>
@@ -28,7 +28,7 @@ const HomeBanner = () => {
               <div>
                <p className=" text-2xl font-mono  text-white mt-5">new restaurant</p>
                <p className=" text-5xl font-mono font-semibold mt-5 text-white">Where every <br></br>ingredient<br></br> tells a story</p>
-               <button className=" font-mono  btn bg-gradient-to-r from-[#e25822] to-yellow-500 text-white mt-5">READ MORE</button>
+               <button className=" transition duration-300 ease-in-out hover:scale-110 font-mono  btn bg-gradient-to-r from-[#e25822] to-yellow-500 text-white mt-5">READ MORE</button>
               </div>
 
             </div>

@@ -5,12 +5,12 @@ const Nav = () => {
 
     const NV = <>
     
-       <li className=" text-white font-mono"><NavLink to="/" >Home</NavLink></li>
-       <li className=" text-white font-mono"><NavLink to="/lan" >LANDING</NavLink></li>
-       <li className=" text-white font-mono"><NavLink to="/about" >ABOUT</NavLink></li>
-       <li className=" text-white font-mono"><NavLink to="/menu" >MENU</NavLink></li>
-       <li className=" text-white font-mono"><NavLink to="/team" >TEAM</NavLink></li>
-       <li className=" text-white font-mono"><NavLink to="/contact" >CONTACT</NavLink></li>
+       <li className="transition duration-300 ease-in-out hover:scale-110 text-white font-mono"><NavLink to="/" >Home</NavLink></li>
+       <li className="transition duration-300 ease-in-out hover:scale-110 text-white font-mono"><NavLink to="/lan" >LANDING</NavLink></li>
+       <li className="transition duration-300 ease-in-out hover:scale-110 text-white font-mono"><NavLink to="/about" >ABOUT</NavLink></li>
+       <li className="transition duration-300 ease-in-out hover:scale-110 text-white font-mono"><NavLink to="/menu" >MENU</NavLink></li>
+       <li className="transition duration-300 ease-in-out hover:scale-110 text-white font-mono"><NavLink to="/team" >TEAM</NavLink></li>
+       <li className="transition duration-300 ease-in-out hover:scale-110 text-white font-mono"><NavLink to="/contact" >CONTACT</NavLink></li>
     
     
     
@@ -27,9 +27,9 @@ const Nav = () => {
   <div className="navbar-start">
     <div className="dropdown">
       <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
-        <svg
+        <svg 
           xmlns="http://www.w3.org/2000/svg"
-          className="h-5 w-5"
+          className="h-5 text-white w-5"
           fill="none"
           viewBox="0 0 24 24"
           stroke="currentColor">
@@ -42,7 +42,7 @@ const Nav = () => {
       </div>
       <ul
         tabIndex={0}
-        className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+        className="menu menu-sm dropdown-content bg-black rounded-box z-[1] mt-3 w-52 p-2 shadow">
         {NV}
       </ul>
     </div>
