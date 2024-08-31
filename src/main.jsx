@@ -9,6 +9,7 @@ import {
 } from "react-router-dom";
 import Root from './Root';
 import Home from './home files/Home';
+import Landing from './landing file/Landing';
 
 const router = createBrowserRouter([
   {
@@ -18,6 +19,10 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Home></Home> ,
+      },
+      {
+        path: "/lan",
+        element:  <Landing></Landing>  ,
       },
     ],
   },
