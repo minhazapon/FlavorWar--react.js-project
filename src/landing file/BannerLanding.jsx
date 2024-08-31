@@ -12,7 +12,7 @@ const BannerLanding = () => {
             <div className=" grid  md:grid-cols-2 gap-10">
             
 
-            <div className=" bg-green-400 w-[500px]  h-[480px] p-5 rounded-xl"
+            <div className=" bg-[#9BEC00] w-[500px]  h-[480px] p-5 rounded-xl"
             >
             <div className=" ">
 
