@@ -10,7 +10,7 @@ const Contact = () => {
 
 
 
-             <div className=" bg-[#9BEC00] w-[500px]  h-[480px] p-5 rounded-xl"
+             <div className=" bg-gradient-to-r from-cyan-400 to-blue-900  w-[500px]  h-[480px] p-5 rounded-xl"
             >
             <div className=" ">
 

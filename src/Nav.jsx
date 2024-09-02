@@ -8,7 +8,7 @@ const Nav = () => {
        <li className="transition duration-300 ease-in-out hover:scale-110 text-white font-mono"><NavLink to="/" >Home</NavLink></li>
        <li className="transition duration-300 ease-in-out hover:scale-110 text-white font-mono"><NavLink to="/lan" >LANDING</NavLink></li>
        <li className="transition duration-300 ease-in-out hover:scale-110 text-white font-mono"><NavLink to="/about" >ABOUT</NavLink></li>
-       <li className="transition duration-300 ease-in-out hover:scale-110 text-white font-mono"><NavLink to="/menu" >MENU</NavLink></li>
+       <li className="transition duration-300 ease-in-out hover:scale-110 text-white font-mono"><NavLink to="/gallery" >Gallery</NavLink></li>
        <li className="transition duration-300 ease-in-out hover:scale-110 text-white font-mono"><NavLink to="/team" >TEAM</NavLink></li>
        <li className="transition duration-300 ease-in-out hover:scale-110 text-white font-mono"><NavLink to="/contact" >CONTACT</NavLink></li>
     

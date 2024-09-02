@@ -10,6 +10,8 @@ import {
 import Root from './Root';
 import Home from './home files/Home';
 import Landing from './landing file/Landing';
+import About from './about file/About';
+import Gallery from './gallery file/Gallery';
 
 const router = createBrowserRouter([
   {
@@ -23,6 +25,14 @@ const router = createBrowserRouter([
       {
         path: "/lan",
         element:  <Landing></Landing>  ,
+      },
+      {
+        path: "/about",
+        element:   <About></About>  ,
+      },
+      {
+        path: "/gallery",
+        element:  <Gallery></Gallery>  ,
       },
     ],
   },
