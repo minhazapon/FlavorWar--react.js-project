@@ -15,7 +15,7 @@ const Blog = () => {
 		<div className="grid grid-cols-1 gap-x-4 gap-y-8 md:grid-cols-2 lg:grid-cols-4">
 
 
-			<article className="flex flex-col border-[1px] border-[#9BEC00] dark:bg-gray-50">
+			<article className=" transition duration-300 ease-in-out hover:scale-110 flex flex-col border-[1px] border-[#9BEC00] dark:bg-gray-50">
 				<a rel="noopener noreferrer" href="#" aria-label="Te nulla oportere reprimique his dolorum">
 					<img alt="" className="object-cover w-full h-52 dark:bg-gray-500" src="https://img.freepik.com/premium-photo/mobile_945869-481.jpg?w=740" />
 				</a>
@@ -31,7 +31,7 @@ const Blog = () => {
 			</article>
 
 
-			<article className="flex flex-col border-[1px] border-[#9BEC00] dark:bg-gray-50">
+			<article className=" transition duration-300 ease-in-out hover:scale-110 flex flex-col border-[1px] border-[#9BEC00] dark:bg-gray-50">
 				<a rel="noopener noreferrer" href="#" aria-label="Te nulla oportere reprimique his dolorum">
 					<img alt="" className="object-cover w-full h-52 dark:bg-gray-500" src="https://img.freepik.com/premium-photo/healthy-gourmet-meal-with-fresh-meat-vegetables-plate-generated-by-artificial-intelligence_188544-78696.jpg?w=826" />
 				</a>
@@ -47,7 +47,7 @@ const Blog = () => {
 			</article>
 
 
-			<article className="flex flex-col border-[1px] border-[#9BEC00] dark:bg-gray-50">
+			<article className=" transition duration-300 ease-in-out hover:scale-110 flex flex-col border-[1px] border-[#9BEC00] dark:bg-gray-50">
 				<a rel="noopener noreferrer" href="#" aria-label="Te nulla oportere reprimique his dolorum">
 					<img alt="" className="object-cover w-full h-52 dark:bg-gray-500" src="https://img.freepik.com/premium-photo/black-plate-with-steamed-fish-fillet-colorful-vegetables-smoke-rising-dark-background-studio-lighting-hyperrealistic_644874-9642.jpg?w=740" />
 				</a>
@@ -64,7 +64,7 @@ const Blog = () => {
 
 
 
-			<article className="flex flex-col border-[1px] border-[#9BEC00] dark:bg-gray-50">
+			<article className=" transition duration-300 ease-in-out hover:scale-110 flex flex-col border-[1px] border-[#9BEC00] dark:bg-gray-50">
 				<a rel="noopener noreferrer" href="#" aria-label="Te nulla oportere reprimique his dolorum">
 					<img alt="" className="object-cover w-full h-52 dark:bg-gray-500" src="https://img.freepik.com/free-photo/top-view-painted-black-baked-tomatoes-top-view_23-2148425616.jpg?t=st=1725112247~exp=1725115847~hmac=252f322ce133e6312cabea0d376d7165b9c5d4c3b13868c55dd5c53fb340809f&w=740" />
 				</a>
