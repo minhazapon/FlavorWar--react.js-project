@@ -30,40 +30,7 @@ const AboutBanner = () => {
               <div>
                 <img className=" h-[400px] w-[500px] rounded-xl" src="https://assets.nicepagecdn.com/11a8ddce/4267640/images/juicy-steak-medium-rare-beef-with-spices-grilled-vegetables.jpg" alt="" />
               </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
             </div>
-
-              
-
-
-
-
-
-
-
-
-
-
-
 
             </div>
             

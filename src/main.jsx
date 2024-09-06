@@ -12,6 +12,10 @@ import Home from './home files/Home';
 import Landing from './landing file/Landing';
 import About from './about file/About';
 import Gallery from './gallery file/Gallery';
+import Team from './team file/Team';
+import Contact from './contact file/Contact';
+import Login from './firebase and sign/Login';
+import SignUp from './firebase and sign/SignUp';
 
 const router = createBrowserRouter([
   {
@@ -33,6 +37,22 @@ const router = createBrowserRouter([
       {
         path: "/gallery",
         element:  <Gallery></Gallery>  ,
+      },
+      {
+        path: "/team",
+        element:   <Team></Team>  ,
+      },
+      {
+        path: "/contact",
+        element:    <Contact></Contact>   ,
+      },
+      {
+        path: "/login",
+        element:  <Login></Login> ,
+      },
+      {
+        path: "/up",
+        element:  <SignUp></SignUp> ,
       },
     ],
   },

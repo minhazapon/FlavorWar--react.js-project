@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 
 const Footer = () => {
@@ -32,7 +33,8 @@ const Footer = () => {
               </div>
               
                <div className=" flex-col md:flex-row lg:flex-row  flex items-center gap-5">
-
+                
+                <Link to='/contact' >
                 <div>
                 <a href="#_" class="relative inline-flex items-center justify-center p-4 px-6 py-3 overflow-hidden font-medium text-white transition duration-300 ease-out border-2 border-white rounded-full shadow-md group">
                 <span class="absolute inset-0 flex items-center justify-center w-full h-full text-white duration-300 -translate-x-full bg-black group-hover:translate-x-0 ease">
@@ -42,8 +44,11 @@ const Footer = () => {
                 <span class="relative invisible">Contact Us</span>
                 </a>
                 </div>
+                </Link>
+                
 
-
+                
+                <Link to="/about" >
                 <div>
                 <a href="#_" class="relative inline-flex items-center justify-center p-4 px-6 py-3 overflow-hidden font-medium text-white transition duration-300 ease-out border-2 border-white rounded-full shadow-md group">
                 <span class="absolute inset-0 flex items-center justify-center w-full h-full text-white duration-300 -translate-x-full bg-black group-hover:translate-x-0 ease">
@@ -53,6 +58,9 @@ const Footer = () => {
                 <span class="relative invisible">About Us</span>
                 </a>
                 </div>
+                
+                </Link>
+                
 
 
 
